@@ -1,0 +1,17 @@
+{
+	"name": "dxcontainer.org",
+	"description": "Official Website of the DxContainer Organization.",
+	"scripts": {
+		"format": "biome format --write",
+		"lint": "biome lint --write",
+		"check": "biome check --write",
+		"dev": "vitepress dev docs --host",
+		"build": "vitepress build docs",
+		"preview": "vitepress preview docs"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@biomejs/biome": "2.2.0",
+		"vitepress": "1.6.3"
+	}
+}
