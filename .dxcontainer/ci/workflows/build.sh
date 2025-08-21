@@ -8,10 +8,6 @@
 # - https://nix.dev/manual/nix/2.29/command-ref/new-cli/nix3-env-shell.html#options-that-change-environment-variables
 
 # ─────────────────────────────────────────────────────────────
-# Run Locally
-# $ (set -a; source .env; set +a; .musara-grappling/ci/workflows/membership-contract.sh)
-
-# ─────────────────────────────────────────────────────────────
 # Utility Functions
 
 bun_clean() {
